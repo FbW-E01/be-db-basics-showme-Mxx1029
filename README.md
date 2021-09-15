@@ -9,3 +9,20 @@ You could take some inspiration from here; https://www.poetryfoundation.org/poem
 - Estimate how much data will you allow to be saved 
 - Describe the data in whatever way you find best
 - Show how you would create the table(s) for your data
+
+
+## Data structures for poem app
+
+Poems
+    - ID            - no data type
+    - Title         - TEXT(100)
+    - Subtitle      - TEXT(200)     - can be empty
+    - Content       - TEXT(50000)
+    - Author        - TEXT(100)     - can be empty 
+    - Source        - TEXT(200)     - can be empty
+    - Created       - DATETIME
+    - Edited        - DATETIME      - can be empty
+    - Published     - BOOLEAN
+    - Deleted       - DATETIME      - can be empty
+    - Main Tag      - Text(100)     - can be empty
+    - Second Tag    - Text(100)     - can be empty
